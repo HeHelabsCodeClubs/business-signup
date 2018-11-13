@@ -1,0 +1,127 @@
+
+.auth-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.signUpWrapper{
+    padding: 0rem;
+    margin: 1rem 0;
+}
+.signUpHeader{
+    border-bottom: 1px solid #ccc;
+    height: 6rem;
+    width: 100%;
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    width: auto;
+}
+.signUpHeader .authTitle{
+    display: block;
+}
+.signUpHeader .authText{
+    display: block;
+    font-size: 0.7rem !important;
+    padding-bottom: 0.5rem;
+}
+.signUpHeader .authBtn{
+    margin: 0;
+}
+.signUpBody{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    padding: 1rem 3rem !important;
+    height: calc(100vh - 14rem);
+    overflow-y: scroll;
+}
+.signUpBody .companyInfo{
+    font-size: 1.1rem; 
+}
+.signUpBody .subCompanyInfo{
+    font-size: 0.7rem;
+}
+.signUpBody .planSelection{
+    padding: 1rem 0;
+}
+.signUpBody .authBtn{
+    margin-top: 2rem;
+}
+.signUpBody .authBtn.reset {
+    background: #F8F9FB;
+    color: #696565;
+}
+.signUpBody .authBtn.signup {
+    margin: 0 0.5rem !important;
+}
+.signUpBody .form-component .col-reset-right{
+    margin: 0 !important;
+    padding: 0 0.5rem 0 0 !important;
+}
+.signUpBody .form-component .col-reset-left{
+    margin: 0 !important;
+    padding: 0 0 0 0.5rem !important;
+}
+.terms{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0rem 2rem 1rem 2rem;
+    font-size: 0.8rem;
+}
+.longEMSLogo {
+    margin: 1rem 0.5rem 0 0.5rem;
+}
+.umuti-auth-logo {
+    height: 4rem;
+    margin: 1rem 0 0 5rem;
+}
+.terms .nav-link {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+.umuti-inputs {
+    margin-bottom: 2rem;
+}
+.iposita-inputs {
+    margin-bottom: 1rem;
+}
+.umuti-inputs .input-area label {
+    position: initial !important;
+    bottom: 0 !important;
+    margin: 0 !important;
+    color: #0C7995;
+}   
+.iposita-inputs .input-area label {
+    position: absolute;
+    bottom: 2.3rem;
+    color: #2A4466;
+}
+
+@media screen and (min-width: 768px) {
+    .signUpWrapper {
+        margin: 1rem;
+    }
+    .signUpHeader {
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0rem 1rem;
+        margin: 0 1rem;
+        width: auto;
+    }
+    .signUpHeader .authText{
+        display: unset;
+        font-size: 0.9rem !important;
+    }
+    .signUpHeader .authBtn{
+        margin: 0.5rem;
+    }
+    .signUpBody .companyInfo{
+        font-size: 1.3rem;  
+    }
+    .terms{
+        font-size: 0.9rem;
+    }
+}
