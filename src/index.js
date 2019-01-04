@@ -99,18 +99,6 @@ class BusinessSignUp extends Component {
                             </span>
                         </div>
                         <div className="signUpBody">
-                            <div>
-                                <div className="companyInfo"
-                                style={{ color: companyInfoTitleColor}}
-                                >
-                                    Add your Company Information
-                                </div>
-                                <div className="subCompanyInfo"
-                                style={{ color: subCompanyInfoTitleColor}}
-                                >
-                                    This will used as your default company information for the services 
-                                </div>
-                            </div>
                             <div className="planSelection">
                                 <div>
                                     <div className="create-form form-container">
