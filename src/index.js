@@ -13,6 +13,7 @@ class BusinessSignUp extends Component {
             buttonText: ''
         };
         this.renderErrors = this.renderErrors.bind(this);
+        this.resetForm = this.resetForm.bind(this);
     }
 
     componentWillReceiveProps(nextProps) {
@@ -50,6 +51,9 @@ class BusinessSignUp extends Component {
         return (
             <RenderField fieldInput={field}/>
         )
+    }
+    resetForm(){
+        this.props.resetSignUpForm();
     }
 
     render (){
@@ -110,7 +114,7 @@ class BusinessSignUp extends Component {
                                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 submit-button form-component">
                                                 <Link 
                                                 to="/signup">
-                                                <button 
+                                                <button onClick={resetForm}
                                                 type="cancel" 
                                                 className={cancelBtnClass}>
                                                 Cancel

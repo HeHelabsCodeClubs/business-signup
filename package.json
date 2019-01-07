@@ -1,6 +1,6 @@
 {
   "name": "business-signup",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "\"a component which render business signup page\"",
   "main": "dist/index.js",
   "scripts": {
